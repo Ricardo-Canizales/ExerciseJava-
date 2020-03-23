@@ -1,5 +1,6 @@
 # ExerciseJava-
-Java Exercises
+Java Exercises- Ricardo Canizales
+
 On this java Exercise i need to sort char of a string, and also kep all in lowercase and without punctuation.
 
 The solution:
