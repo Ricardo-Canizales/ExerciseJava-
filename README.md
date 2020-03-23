@@ -40,3 +40,6 @@ public class SortingCharEx {
     
 }
 
+OUTPUT:
+
+Hey Dr x, this is your block text with letters in sorted :          aaaaabbbbcccdeeeeeghhhiiiiklllllllmnnnnooopprsssstttuuvwyyyy
