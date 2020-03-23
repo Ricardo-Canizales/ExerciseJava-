@@ -1,0 +1,21 @@
+/**
+ *
+ * @author Ricardo Cañizales
+ */
+public class SortingChar {
+    
+    public static void main(String args[]){
+        
+        String input = "When not studying nuclear physics, Bambi likes to play\n" +
+"beach volleyball.";
+        input = input.replaceAll("\\p{Punct}","");
+        input = input.toLowerCase();
+char[] charArray = input.toCharArray();
+Arrays.sort(charArray);
+String sortedString = new String(charArray);
+System.out.println(sortedString);  
+    
+    }
+    
+    
+}
