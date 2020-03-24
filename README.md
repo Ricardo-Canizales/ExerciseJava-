@@ -6,13 +6,15 @@ On this Exercise i need to sort char of a string, and also kep all in lowercase 
 THE SOLUTION IN JAVA:
 
 public class SortingCharEx {
-    
+
     public static void main(String args[]) {
         char temp;
-        String sortedStr="";
+        String sortedStr = "";
         String input = "When not studying nuclear physics, Bambi likes to play beach volleyball.";
         input = input.replaceAll("\\p{Punct}", "");
+        // I used repalceAll("\\p{Punct}", "") to delete any punctuations.
         input = input.toLowerCase();
+        // I used toLowerCase to convert every upperCase to lowerCase.
 
         char[] charArray = input.toCharArray();
 
@@ -35,10 +37,9 @@ public class SortingCharEx {
 
         System.out.println("Hey Dr x, this is your block text with letters in sorted :" + sortedStr);
     }
-    
-    
-    
+
 }
+
 
 OUTPUT:
 
