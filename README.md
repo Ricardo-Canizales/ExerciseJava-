@@ -58,7 +58,7 @@ THE SOLUTION IN JAVASCRIPT:
 
  <script>
 
-   function myFunction() {
+   function myFunction()  {
 
      var str = "When not studying nuclear physics, Bambi likes to play beach volleyball.";
 	 var res = str.toLowerCase();
