@@ -1,5 +1,5 @@
-# ExerciseJava-JavaScript
-Java-JavaScript Exercises- Ricardo Canizales
+# ExerciseJava-
+Java-Exercises- Ricardo Canizales
 
 On this Exercise i need to sort char of a string, and also kep all in lowercase and without punctuation.
 
@@ -43,34 +43,4 @@ public class SortingCharEx {
 OUTPUT:
 
 Hey Dr x, this is your block text with letters in sorted :          aaaaabbbbcccdeeeeeghhhiiiiklllllllmnnnnooopprsssstttuuvwyyyy
-
-THE SOLUTION IN JAVASCRIPT:
-
-<!DOCTYPE html>
-<html>
- <body>
-
- <p>On this exercise i will sorted the String: "When not studying nuclear physics, Bambi likes to play beach volleyball." pushing the next button</p>
-
- <button onclick="myFunction()">Run</button>
-
- <p id="Sorted"></p>
-
- <script>
-
-   function myFunction()  {
-
-     var str = "When not studying nuclear physics, Bambi likes to play beach volleyball.";
-	 var res = str.toLowerCase();
-     var finalString = res.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,""); 
-     finalString = finalString.split("");
-     finalString = finalString.sort();
-     finalString = finalString.join("");
-	 
-    
-     document.getElementById("Sorted").innerHTML = finalString;
-}
- </script>
-
- </body>
-</html>
+  
